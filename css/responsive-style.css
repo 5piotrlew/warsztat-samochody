@@ -1,0 +1,17 @@
+@media all and (max-width: 600px) {
+  
+  #menu .menu-items {
+    flex-wrap: wrap;
+  }
+  
+  #menu .menu-items > li {
+    flex-basis: 50%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  #menu .menu-items > li {
+    flex-basis: 100%;
+  }
+
+}
